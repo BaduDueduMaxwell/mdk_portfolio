@@ -1,21 +1,9 @@
-body {
-  background-color: #e8fdf5;
-  color: #052d3f;
-  overflow-x: hidden;
-}
-
 .header {
   display: flex;
   flex-direction: column;
   text-align: center;
   align-items: center;
   padding-bottom: 80px;
-}
-
-.container {
-  max-width: 860px;
-  margin: 0 auto;
-  padding: 20px;
 }
 
 .header__intro {
