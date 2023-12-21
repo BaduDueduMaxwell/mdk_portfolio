@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import Heading from "../components/heading";
 import "./home.css";
+import "../App.css";
 import PhotoMax from "../components/PhotoMax";
 import Links from "../components/Links";
 

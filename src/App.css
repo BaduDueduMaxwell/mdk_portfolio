@@ -1,0 +1,11 @@
+.container {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+body {
+  background-color: #e8fdf5;
+  color: #052d3f;
+  overflow-x: hidden;
+}
