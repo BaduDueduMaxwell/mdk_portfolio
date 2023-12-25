@@ -3,8 +3,8 @@ import Navbar from "../components/HomeComponents/Navbar";
 import Heading from "../components/HomeComponents/Heading";
 import "./home.css";
 import "../App.css";
-import PhotoMax from "../components/HomeComponents/PhotoMax";
-import Links from "../components/HomeComponents/Links";
+import PhotoMax from "../components/PhotoMax";
+import Links from "../components/Links";
 
 export default function Home() {
   return (
