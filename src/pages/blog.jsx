@@ -1,7 +1,7 @@
 import React from "react";
-import Header2 from "../components/BlogComponent/Header2";
+import Header2 from "../components/BlogComponents/Header2";
 import "./blog.css";
-import Post1 from "../components/BlogComponent/post1";
+import Post1 from "../components/BlogComponents/post1";
 
 export default function Blog() {
   return (
