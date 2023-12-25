@@ -1,0 +1,16 @@
+.news {
+  background-color: #fffcd6;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+
+h5 {
+  text-decoration: none;
+  color: #000;
+  background: rgba(245, 215, 110, 0.5);
+  transition: all linear 0.2s;
+  margin: 15px;
+}
