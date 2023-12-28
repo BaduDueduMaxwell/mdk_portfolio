@@ -1,0 +1,57 @@
+.dark {
+  background-color: #202631;
+  color: #fff;
+}
+
+.footer {
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.footer .blurb {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-family: "Leitura News","Palatino","Georgia","Times New Roman",serif;
+}
+
+.footer__links {
+  justify-content: center;
+  align-items: center;
+}
+
+.list-inline {
+  display: flex;
+}
+
+.list-unstyled {
+  list-style-type: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
