@@ -8,7 +8,7 @@ export default function Paragraph() {
         <a href="https://www.linkedin.com/in/maxwell-duedu-05a026199/">
           Maxwell Duedu.
         </a>
-        Depending on mood I am a Software Engineer or a technical writer. I have
+        Depending on my mood I am a Software Engineer or a technical writer. I have
         written a number of technical blogs in which I broke down complex topics
         and defined some best practices to implement in code. As an engineer and
         a technical writer, my goal is to develop tools of technological
