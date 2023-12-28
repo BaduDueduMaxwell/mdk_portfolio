@@ -10,22 +10,22 @@ export default function FooterLinks() {
     <div>
       <ul className="footer__links list-unstyled list-inline">
         <li>
-          <a href="https://www.linkedin.com/in/maxwell-duedu-05a026199/">
-            <img src={doc} alt="" />
+          <a href="https://docs.google.com/document/d/1_U5rtzW80YcoXGuDe8EaKZVWiu7H3lLVzkiXVmXYiNs/edit">
+            <img src={doc} alt="resume" />
           </a>
         </li>
         <li>
-          <a href="https://www.linkedin.com/in/maxwell-duedu-05a026199/">
-            <img src={github} alt="" />
+          <a href="https://github.com/BaduDueduMaxwell">
+            <img src={github} alt="github" />
           </a>
         </li>
         <li>
-          <a href="https://www.linkedin.com/in/maxwell-duedu-05a026199/">
-            <img src={twitter} alt="" />
+          <a href="https://twitter.com/duedumaxx">
+            <img src={twitter} alt="twitter" />
           </a>
         </li>
         <li>
-          <a href="https://www.linkedin.com/in/maxwell-duedu-05a026199/">
+          <a href="https://medium.com/@duedumaxwell43">
             <img src={medium} alt="" />
           </a>
         </li>

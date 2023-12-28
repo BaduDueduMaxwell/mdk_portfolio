@@ -11,28 +11,28 @@ export default function Links() {
       <nav>
         <ul className="sm:header__links list-unstyled list-inline pl-5">
           <li>
-            <a href="">
-              <img src={doc} alt="" />
+            <a href="https://docs.google.com/document/d/1_U5rtzW80YcoXGuDe8EaKZVWiu7H3lLVzkiXVmXYiNs/edit">
+              <img src={doc} alt="resume" />
             </a>
           </li>
           <li>
-            <a href="">
-              <img src={github} alt="" />
+            <a href="https://github.com/BaduDueduMaxwell">
+              <img src={github} alt="github"  />
             </a>
           </li>
           <li>
-            <a href="">
-              <img src={twitter} alt="" />
+            <a href="https://twitter.com/duedumaxx">
+              <img src={twitter} alt="twitter" />
             </a>
           </li>
           <li>
-            <a href="">
-              <img src={medium} alt="" />
+            <a href="https://medium.com/@duedumaxwell43">
+              <img src={medium} alt="medium" />
             </a>
           </li>
           <li>
-            <a href="">
-              <img src={linkedin} alt="" />
+            <a href="https://www.linkedin.com/in/maxwell-duedu-05a026199/">
+              <img src={linkedin} alt="linkedin" />
             </a>
           </li>
         </ul>
