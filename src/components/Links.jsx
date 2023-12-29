@@ -9,7 +9,7 @@ export default function Links() {
   return (
     <div>
       <nav>
-        <ul className="sm:header__links list-unstyled list-inline pl-5">
+        <ul className="header__links list-unstyled list-inline ">
           <li>
             <a href="https://docs.google.com/document/d/1_U5rtzW80YcoXGuDe8EaKZVWiu7H3lLVzkiXVmXYiNs/edit">
               <img src={doc} alt="resume" />

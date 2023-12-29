@@ -9,10 +9,12 @@ import Links from "../components/Links";
 export default function Home() {
   return (
     <div className="header container">
-      <div className="sm:header__intro">
+      <div className="header__intro">
         <Heading />
         <Links />
         <Navbar />
+      </div>
+      <div className="header__photo">
         <PhotoMax />
       </div>
     </div>

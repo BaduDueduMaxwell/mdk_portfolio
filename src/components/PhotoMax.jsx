@@ -3,7 +3,7 @@ import duedu from "../assets/duedu.jpg";
 
 export default function PhotoMax() {
   return (
-    <div className="header__photo">
+    <div>
       <figure className="header__photo-wrapper">
         <img src={duedu} alt="photo of Maxwell Duedu" />
         <figcaption className="header__quote">
