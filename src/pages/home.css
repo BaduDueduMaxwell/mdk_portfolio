@@ -2,7 +2,6 @@
   display: flex;
   text-align: center;
   align-items: center;
-  padding-bottom: 80px;
 }
 
 .header__intro {
@@ -87,7 +86,6 @@ a {
   width: 150px;
   background-color: #bcebd4;
   z-index: -1;
-  
 }
 
 figure {
