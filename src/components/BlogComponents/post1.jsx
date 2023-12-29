@@ -5,7 +5,7 @@ export default function Post1() {
     <div>
       <div className="px-2">
         <div className="flex -mx-2">
-          <div className="w-5/5 p-5">
+          <div className="w-full sm:w-1/2 p-5">
             <div className="sm:h-100">
               <a href="https://medium.com/@duedumaxwell43/understanding-python-if-and-else-statements-a-comprehensive-guide-efcc566e6cc0">
                 <img
@@ -20,7 +20,7 @@ export default function Post1() {
               </a>
             </div>
           </div>
-          <div className="w-5/5 p-5">
+          <div className="w-full sm:w-1/2 p-5">
             <div className="sm:h-100">
               <a href="https://medium.com/@duedumaxwell43/python-common-errors-part-1-c1e5a03c67d8">
                 <img

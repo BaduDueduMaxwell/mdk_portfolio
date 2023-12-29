@@ -14,3 +14,15 @@ h5 {
   transition: all linear 0.2s;
   margin: 15px;
 }
+
+@media (min-width: 640px) {
+  .flex {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 768px) {
+  .flex {
+    flex-direction: row;
+  }
+}
