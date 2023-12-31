@@ -1,5 +1,22 @@
-.projects {
+#projects {
   background-color: #e8fdf5;
   color: #052d3f;
   overflow-x: hidden;
 }
+
+.color{
+  background-color: rgba(245, 215, 110, 0.5);
+}
+@media (min-width: 640px) {
+  .project {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 768px) {
+  .project {
+    flex-direction: row;
+  }
+}
+
+
