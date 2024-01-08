@@ -8,7 +8,7 @@ export default function Post1() {
           <div className="w-full sm:w-1/2 p-5">
             <div className="sm:h-100">
               <a href="https://medium.com/@duedumaxwell43/understanding-python-if-and-else-statements-a-comprehensive-guide-efcc566e6cc0">
-                <img
+              <img
                   src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*0qa5w1wa0_L6tfoeA3tVPQ.jpeg"
                   alt=""
                 />
