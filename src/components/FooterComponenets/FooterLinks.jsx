@@ -1,9 +1,9 @@
 import React from "react";
-import doc from "/Users/maxwell/mdk_portfolio/src/assets/links/doc.png";
-import github from "/Users/maxwell/mdk_portfolio/src/assets/links/github.png";
-import twitter from "/Users/maxwell/mdk_portfolio/src/assets/links/twitter.png";
-import medium from "/Users/maxwell/mdk_portfolio/src/assets/links/medium.png";
-import linkedin from "/Users/maxwell/mdk_portfolio/src/assets/links/linkedin.png";
+import doc from "../../assets/links/doc.png";
+import github from "../../assets/links/github.png";
+import twitter from "../../assets/links/twitter.png";
+import medium from "../../assets/links/medium.png";
+import linkedin from "../../assets/links/linkedin.png";
 
 export default function FooterLinks() {
   return (
