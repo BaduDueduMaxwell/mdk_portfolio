@@ -1,6 +1,5 @@
 import React from "react";
-import FooterText from "../components/FooterComponenets/footerText";
-// import Links from "../components/Links";
+import FooterText from "../components/FooterComponenets/FooterText";
 import "./Footer.css";
 import FooterLinks from "../components/FooterComponenets/FooterLinks";
 
