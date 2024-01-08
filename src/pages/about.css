@@ -6,6 +6,11 @@ section {
   background-color: #fafafa;
 }
 
+.bullet {
+  list-style-type: square;
+  padding-left: 10px;
+}
+
 .section-title {
   font-size: 1.5rem;
   margin: 0 auto;
