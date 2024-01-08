@@ -3,12 +3,13 @@ import ogateway from "/Users/maxwell/mdk_portfolio/src/assets/Projects/ogateway.
 import wewire from "/Users/maxwell/mdk_portfolio/src/assets/Projects/wewire.png";
 import KiboNavigator from "/Users/maxwell/mdk_portfolio/src/assets/Projects/kiboNavigator.png";
 import Afrotour from "/Users/maxwell/mdk_portfolio/src/assets/Projects/afrotour.png";
+import { motion } from "framer-motion";
 
 export default function Projects() {
   return (
     <div>
       <div className="flex -mx-2">
-        <div className="w-full sm:w-1/2 p-5">
+        <motion.div className="w-full sm:w-1/2 p-5" whileHover={{ scale: 1.1 }}>
           <div className="sm:h-100">
             <a href="https://ogateway.io">
               <img src={ogateway} alt="ogateway" />
@@ -23,27 +24,35 @@ export default function Projects() {
               </p>
             </a>
           </div>
-        </div>
+        </motion.div>
         <div className="w-full sm:w-1/2 p-5">
-          <div className="sm:h-100">
+          <motion.div className="sm:h-100" whileHover={{ scale: 1.1 }}>
             <a href="https://www.wewireafrica.com/">
-              <img src={wewire} alt="" />
+              <img
+                src={wewire}
+                alt="Internship company Maxwell has worked at."
+              />
 
-              <p className="text-sm font-bold color p-5">
+              <motion.p
+                className="text-sm font-bold color p-5"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ duration: 0.5 }}
+              >
                 Wewire Africa is an easy-to-use global mobile payments platform.
-                They enable businesses to trade across borders, helping clients
+                It enables businesses to trade across borders, helping clients
                 to improve the quality of their businesses by enabling their
                 company to seamlessly and quickly interact with international
                 customers, suppliers and business partners, giving them access
                 to new markets, achieve better results and make smarter business
                 decisions.
-              </p>
+              </motion.p>
             </a>
-          </div>
+          </motion.div>
         </div>
       </div>
       <div className="flex -mx-2">
-        <div className="w-full sm:w-1/2 p-5">
+        <motion.div className="w-full sm:w-1/2 p-5" whileHover={{ scale: 1.1 }}>
           <div className="sm:h-100">
             <a href="https://ogateway.io">
               <img src={KiboNavigator} alt="ogateway" />
@@ -61,9 +70,9 @@ export default function Projects() {
               </p>
             </a>
           </div>
-        </div>
+        </motion.div>
         <div className="w-full sm:w-1/2 p-5">
-          <div className="sm:h-100">
+          <motion.div className="sm:h-100" whileHover={{ scale: 1.1 }}>
             <a href="https://medium.com/@duedumaxwell43/python-common-errors-part-1-c1e5a03c67d8">
               <img src={Afrotour} alt="" />
 
@@ -80,7 +89,7 @@ export default function Projects() {
                 Afrotour.{" "}
               </p>
             </a>
-          </div>
+          </motion.div>
         </div>
       </div>
     </div>
