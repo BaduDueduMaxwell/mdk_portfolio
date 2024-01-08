@@ -1,5 +1,5 @@
 import React from "react";
-import duedu from "../assets/duedu.jpg";
+import duedu from "../../assets/duedu.jpg";
 
 export default function PhotoMax() {
   return (
