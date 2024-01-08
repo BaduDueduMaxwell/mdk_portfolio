@@ -9,6 +9,7 @@ section {
 .bullet {
   list-style-type: square;
   padding-left: 10px;
+  font-family: "Leitura News", "Palatino", "Georgia", "Times New Roman", serif;
 }
 
 .section-title {
