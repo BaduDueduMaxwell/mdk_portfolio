@@ -1,7 +1,7 @@
 import React from "react";
 import doc from "../../assets/links/doc.png";
 import github from "../../assets/links/github.png";
-import twitter from "../../assets/links/linkedin.png";
+import twitter from "../../assets/links/twitter.png";
 import medium from "../../assets/links/medium.png";
 import linkedin from "../../assets/links/linkedin.png";
 
@@ -17,7 +17,7 @@ export default function Links() {
           </li>
           <li>
             <a href="https://github.com/BaduDueduMaxwell">
-              <img src={github} alt="github"  />
+              <img src={github} alt="github" />
             </a>
           </li>
           <li>
