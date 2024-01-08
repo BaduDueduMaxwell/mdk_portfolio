@@ -176,3 +176,9 @@ figure {
     margin-inline-end: 40px;
   }
 }
+
+@media (min-width: 1024px) {
+  .header{
+    margin-top: 200px;
+  }
+}
