@@ -26,7 +26,7 @@ export default function Projects() {
         </div>
         <div className="w-full sm:w-1/2 p-5">
           <div className="sm:h-100">
-            <a href="https://medium.com/@duedumaxwell43/python-common-errors-part-1-c1e5a03c67d8">
+            <a href="https://www.wewireafrica.com/">
               <img src={wewire} alt="" />
 
               <p className="text-sm font-bold color p-5">
