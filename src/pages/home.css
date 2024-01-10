@@ -30,8 +30,10 @@
 
 .header__links {
   justify-content: center;
-  margin: 10px 0pc;
+  margin: 10px 0px;
 }
+
+
 
 .list-inline {
   display: flex;
@@ -39,6 +41,10 @@
 
 .list-unstyled {
   list-style-type: none;
+}
+
+ul li{
+  font-family: "Leitura News", "Palatino", "Georgia", "Times New Roman", serif;
 }
 
 ul {
