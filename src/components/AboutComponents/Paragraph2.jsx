@@ -7,7 +7,7 @@ export default function Paragraph2() {
         <h4 className="font-bold "> Career</h4>
         <ul>
           <li className="bullet">
-            At my previous internships at
+            At my previous internship at
             <a href="https://www.wewireafrica.com/">Wewire Africa,</a>I helped
             build a cross-border payments platform. This platform aimed to
             address the longstanding challenge faced by individuals and
