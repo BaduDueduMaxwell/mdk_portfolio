@@ -6,13 +6,13 @@ export default function Navbar() {
       <nav>
         <ul className="header__nav list-unstyled list-inline center  md:ml-0">
           <li>
-            <a href="#about">About</a>
+            <a className="font-bold nav__links" href="#about">About</a>
           </li>
           <li>
-            <a href="#blog">Blogs</a>
+            <a className="font-bold nav__links" href="#blog">Blogs</a>
           </li>
           <li>
-            <a href="#projects">Projects</a>
+            <a className="font-bold nav__links" href="#projects">Projects</a>
           </li>
         </ul>
       </nav>
