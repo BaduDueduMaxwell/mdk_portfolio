@@ -6,7 +6,7 @@ export default function PhotoMax() {
     <div>
       <figure className="header__photo-wrapper">
         <img src={duedu} alt="photo of Maxwell Duedu" />
-        <figcaption className="header__quote">
+        <figcaption className="header__quote font-bold">
           Eloquent JS is the best JS book
         </figcaption>
       </figure>
