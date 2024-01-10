@@ -15,7 +15,7 @@ export default function Paragraph2() {
         <br />
       </p>
       <div className="ml-12">
-        <h4 className="font-bold "> Random Facts About Me</h4>
+        <h4 className="font-bold "> Fun Facts About Me</h4>
         <ul>
           <li className="bullet">I drink a lot of tea</li>
           <li className="bullet">I'm slightly addicted to Twitter</li>
