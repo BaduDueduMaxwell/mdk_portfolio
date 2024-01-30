@@ -54,8 +54,8 @@ export default function Projects() {
       <div className="flex -mx-2">
         <motion.div className="w-full sm:w-1/2 p-5" whileHover={{ scale: 1.1 }}>
           <div className="sm:h-100">
-            <a href="https://ogateway.io">
-              <img src={KiboNavigator} alt="ogateway" />
+            <a href="">
+              <img src={KiboNavigator} alt="KiboNavigator" />
 
               <p className="text-sm font-bold color p-5">
                 KiboNavigator, a student-centric website meticulously designed
