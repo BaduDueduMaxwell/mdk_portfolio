@@ -2,7 +2,7 @@ import React from "react";
 import ogateway from "../../assets/Projects/ogateway.png";
 import wewire from "../../assets/Projects/wewire.png";
 import KiboNavigator from "../../assets/Projects/kiboNavigator.png";
-import Afrotour from "../../assets/Projects/afrotour.png";
+import bankist from "../../assets/Projects/bankist.png";
 import { motion } from "framer-motion";
 
 export default function Projects() {
@@ -52,9 +52,23 @@ export default function Projects() {
         </div>
       </div>
       <div className="flex -mx-2">
+        <div className="w-full sm:w-1/2 p-5">
+          <motion.div className="sm:h-100" whileHover={{ scale: 1.1 }}>
+            <a href="https://bankist-dbadu.netlify.app/">
+              <img src={bankist} alt="bankist homepage" />
+
+              <p className="text-sm font-bold color p-5">
+                Bankist: A fictional online bank. This is a project designed by
+                Jonas Schmedtmann to practice DOM manipulation and user
+                interaction. You have the possibility to log into the account
+                and use several functions, just like in a real bank!{" "}
+              </p>
+            </a>
+          </motion.div>
+        </div>
         <motion.div className="w-full sm:w-1/2 p-5" whileHover={{ scale: 1.1 }}>
           <div className="sm:h-100">
-            <a href="">
+            <a href="https://prod-project.vercel.app/">
               <img src={KiboNavigator} alt="KiboNavigator" />
 
               <p className="text-sm font-bold color p-5">
@@ -71,26 +85,6 @@ export default function Projects() {
             </a>
           </div>
         </motion.div>
-        <div className="w-full sm:w-1/2 p-5">
-          <motion.div className="sm:h-100" whileHover={{ scale: 1.1 }}>
-            <a href="https://medium.com/@duedumaxwell43/python-common-errors-part-1-c1e5a03c67d8">
-              <img src={Afrotour} alt="" />
-
-              <p className="text-sm font-bold color p-5">
-                Welcome to Afrotour, your passport to affordable global
-                adventures! Afrotour is not just a page; it's your go-to
-                platform for booking budget-friendly tour trips to destinations
-                all around the world. We take pride in offering you the
-                opportunity to explore and experience the wonders of various
-                countries without breaking the bank. With competitive rates and
-                a commitment to providing cost-effective travel solutions,
-                Afrotour is your gateway to making memorable journeys accessible
-                to everyone. Discover the world at a more affordable rate with
-                Afrotour.{" "}
-              </p>
-            </a>
-          </motion.div>
-        </div>
       </div>
     </div>
   );
