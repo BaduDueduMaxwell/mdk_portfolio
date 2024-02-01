@@ -58,8 +58,7 @@ export default function Projects() {
               <img src={bankist} alt="bankist homepage" />
 
               <p className="text-sm font-bold color p-5">
-                Bankist: A fictional online bank. This is a project designed by
-                Jonas Schmedtmann to practice DOM manipulation and user
+                Bankist: A fictional online bank. This project was to practice DOM manipulation and user
                 interaction. You have the possibility to log into the account
                 and use several functions, just like in a real bank!{" "}
               </p>
