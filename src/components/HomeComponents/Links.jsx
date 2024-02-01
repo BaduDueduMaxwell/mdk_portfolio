@@ -31,7 +31,7 @@ export default function Links() {
             </a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/maxwell-duedu-05a026199/">
+            <a href="https://www.linkedin.com/in/maxwellduedu">
               <img src={linkedin} alt="linkedin" />
             </a>
           </li>

@@ -5,7 +5,7 @@ export default function Paragraph() {
     <div>
       <p>
         Welcome to my corner of the web! I am
-        <a href="https://www.linkedin.com/in/maxwell-duedu-05a026199/">
+        <a href="https://www.linkedin.com/in/maxwellduedu/">
           Maxwell Duedu.
         </a>
         I am a Software Engineer and a Technical Writer  based in Accra, Ghana. As
