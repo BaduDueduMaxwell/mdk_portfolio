@@ -21,6 +21,22 @@ export default function Projects() {
                 in-person transactions, our versatile solution adapts to your
                 requirements, providing a seamless payment experience for your
                 customers.
+                <h5 className="text-2xl mt-4 b-4">Experience:</h5>
+                <li className="mb-4">
+                  Implemented a robust Time-based OTP system integrated with
+                  email delivery and push notifications which decreased
+                  fraudulent login by 75%.
+                </li>
+                <li className="mb-4">
+                  Collaborated with UI/UX designers to develop a user–friendly
+                  OTP input field prototype, achieving a 99% success rate of
+                  entry across desktop, mobile, and tablet devices.
+                </li>
+                <li className="mb-4">
+                  Contributed to cross border transactions testings and
+                  participated in team meetings, scrum sessions, and code
+                  reviews.
+                </li>
               </p>
             </a>
           </div>
@@ -46,6 +62,17 @@ export default function Projects() {
                 customers, suppliers and business partners, giving them access
                 to new markets, achieve better results and make smarter business
                 decisions.
+                <h5 className="text-2xl mt-4 b-4">Experience:</h5>
+                <li className="mb-4">
+                  Created a clean and responsive website using TypeScript and
+                  React, leading to increased traffic and engagement by 20%.
+                </li>
+                <li className="mb-4">
+                  Engineered robust quality assurance frameworks, incorporating
+                  diverse testing methods and user acceptance testing, leading
+                  to significant improvements in frontend code quality and
+                  reliability.
+                </li>
               </motion.p>
             </a>
           </motion.div>
@@ -58,9 +85,10 @@ export default function Projects() {
               <img src={bankist} alt="bankist homepage" />
 
               <p className="text-sm font-bold color p-5">
-                Bankist: A fictional online bank. This project was to practice DOM manipulation and user
-                interaction. You have the possibility to log into the account
-                and use several functions, just like in a real bank!{" "}
+                Bankist: A fictional online bank. This project was to practice
+                DOM manipulation and user interaction. You have the possibility
+                to log into the account and use several functions, just like in
+                a real bank!{" "}
               </p>
             </a>
           </motion.div>
